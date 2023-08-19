@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?size=626&ext=jpg&ga=GA1.2.978402356.1692458644&semt=sph" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Library System</title>
+</head>
+<body>
+
+        <nav id="navbar">
+            <h1 id="logo"><a href="index.html">Library System</a></h1>
+            <ul id="nav-menu">
+                <li class="nav-list"><a href="#page-1" class="nav-link">Books</a></li>
+                <li class="nav-list"><a href="#page-2" class="nav-link">Register</a></li>
+                <li class="nav-list"></li><a href="#" class="nav-link">Contact Us</a></li>
+                <li class="nav-list"></li><a href="#" class="nav-link">Logout</a></li>
+            </ul>
+        </nav>
+
+    <section id="page-1">
+        <div class="container">
+            <h1 class="page-title">Books</h1>
+            <table id="book-info">
+            <tr>
+                <th class="table-head">Book ID</th>
+                <th class="table-head">Title</th>
+                <th class="table-head">Author</th>
+                <th class="table-head">Genre</th>
+                <th class="table-head">Availability</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="#" class="book-title">The Pilgrims Progress</a>
+                    <table class="title-table">
+                        <tr>
+                            <td>Publication Date: 1678</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Page Count: 240
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                ISBN: 209-4581234738
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>John Bunyan</td>
+                <td> Novel,Amazing</td>
+                <td>Available</td>
+            </tr>
+            
+            <tr>
+                <td>2</td>
+                <td >
+                    <a href="#" class="book-title">Robinson Crusoe </a>
+                    <table class="title-table">
+                        <tr>
+                            <td>Publication Date:1719</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Page Count:300
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                ISBN:932-030749864277
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Daniel Defoe</td>
+                <td>Novel,irresistible</td>
+                <td>Available</td>
+            </tr><br>
+            
+            <tr>
+                <td>3</td>
+                <td>
+                    <a href="#" class="book-title">Gullivers Travels </a>
+                    <table class="title-table">
+                        <tr>
+                            <td>Publication Date:1726</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Page Count:200
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                ISBN:548-044809412
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Jonathan Swift</td>
+                <td>Novel,Amazing</td>
+                <td>Not Available</td>
+            </tr>
+            
+            <tr>
+                <td>4</td>
+                <td>
+                    <a href="#" class="book-title"> Clarissa </a>
+                    <table class="title-table">
+                        <tr>
+                            <td>Publication Date:1748</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Page Count:200
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                ISBN:678-01408766498
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Samuel Richardson</td>
+                <td>Novel,Tragic </td>
+                <td>Available</td>
+            </tr>
+    
+            <tr>
+                <td>5</td>
+                <td>
+                    <a href="#" class="book-title"> The Life and Opinions of Tristram Shandy, Gentleman</a>
+                    <table class="title-table">
+                        <tr>
+                            <td>Publication Date:1759</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Page Count:200
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                ISBN:378-03454883168
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Laurence Sterne</td>
+                <td>Thriller, Adventure</td>
+                <td>Available</td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+    <section id="page-2">
+        <div class="container">
+            <h1 class="page-title">Register</h1>
+
+            <form action="#" method="POST">
+                <label class="form-label" for="first_name">First Name:</label>
+                <input class="form-input" type="text" id="first_name" placeholder="First Name" required>
+                <br>
+                <label class="form-label" for="last_name">Last Name:</label>
+                <input class="form-input" type="text" id="last_name" placeholder="Last Name" required>
+                <br>
+                <label class="form-label" for="email">Email:</label>
+                <input class="form-input" type="email" id="email" placeholder="example@gmail.com" required>
+                <br>
+                <label class="form-label" for="dob"> Date Of Birth:</label>
+                <input class="form-input" type="date" id="dob" required>
+                <br>
+                <label class="form-label" for="age">Age:</label>
+                <input class="form-input" type="number" id="age" min="5" max="100" placeholder="Age" required>
+                <br>
+                <label class="form-label" for="password">Password:</label>
+                <input class="form-input" type="password" id="password" placeholder="Password" required>
+                <br>
+                <label class="form-label" for="confirm-password">Confirm Password:</label>
+                <input class="form-input" type="password" id="confirm-password" minlength="6" maxlength="8" placeholder="Confirm Password" required>
+
+                <button class="form-btn" type="submit">Register</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html> 

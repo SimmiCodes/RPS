@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FAF3F0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 50%;
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* --------------navigation bar css------------- */
+
+#navbar{
+    background-color: black;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-list{
+    margin: 10px;
+}
+
+.nav-link{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.nav-link:hover{
+    color:lightblue;
+    border-radius: 5px 10px 5px 10px;
+    transition: .1s ease-in-out;
+}
+
+#logo>a
+{
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*---------------------- table section css --------------------*/
+
+#page-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+#book-info,th,td
+{
+    border-collapse: collapse;
+    border: 2px solid #e7e6e7;
+}
+
+th,td{
+    padding: 10px;
+    width: 160px;
+}
+
+.title-table{
+    width: 250px;
+}
+
+.book-title
+{
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+/*--------------- registeration form css ---------------------*/
+
+#page-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.page-title
+{
+    color: black;
+    font-size: 35px;
+    text-align: Left;
+    margin: 10px 0px;
+}
+
+.form-label
+{
+    font-size: 18px;
+}
+
+.form-input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    outline: none;
+    padding: 8px;
+    border: 2px solid #e7e6e7;
+    border-radius: 5px;
+}
+
+.form-input:focus
+{
+    border: 2px solid black;
+}
+
+.form-btn
+{
+    color: #ffffff;
+    background-color: black;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form-btn:hover
+{
+    background-color: black;
+}
